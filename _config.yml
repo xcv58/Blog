@@ -1,7 +1,7 @@
-title:            Notepad
-description:      "Blogging is fun"
+title:            xcv58's Blog
+description:      "Less is more"
 logo:             logo.png
-disqus_shortname: hmfaysal
+disqus_shortname: xcv58
 share:            true
 dropcap:	  true
 # Change url to your domain. Leave localhost server or blank when working locally.
@@ -18,8 +18,8 @@ owner:
   description:    Awesome Dude, Awesome Life
   # Social networking links used in footer. Update and remove as you like.
   twitter:        xcv58
-  facebook:       hmfaysal
-  github:         xcv58      
+  facebook:       chenyihonglove
+  github:         xcv58
   instagram:      xcv58
   # For Google Authorship https://plus.google.com/authorship
   google_plus:    https://google.com/+陈毅鸿xcv58
