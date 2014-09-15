@@ -52,6 +52,8 @@ To achieve this goal, we need extract the num of log entry within per minute. Th
     cat system.log | sed -e '/^[[:blank:]].*/d' | grep -o "^\w\+[ \t]\d\{2,2\}[ \t]\d\{2,2\}:\d\d" | sort | uniq -c | sed -e 's/^ *\([0-9]\{1,\}\) \(.*\)/\2,\1/'
 {% endhighlight %}
 
+Please use [this Dropbox Share Folder](https://www.dropbox.com/sh/uzmgdfnrlr8uw3k/AADSAQ2CpEw573Sj9HneQFQAa?dl=0) to play with it, if you don't have Mac.
+
 This shell script will print statistics like:
 
 {% highlight text %}
