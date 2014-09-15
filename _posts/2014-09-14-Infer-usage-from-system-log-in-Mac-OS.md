@@ -4,6 +4,11 @@ title: "Infer usage from system log in Mac OS"
 description: "Infer usage from system log in Mac OS"
 category: tech
 tags: [Mac, Data]
+imagefeature:
+mathjax:
+chart:
+comments: true
+featured: true
 ---
 
 We have a project to monitor how individual use different devices in daily life. The goal includes what time use which device, how they switch different device, etc..
