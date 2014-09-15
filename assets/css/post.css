@@ -21,7 +21,6 @@ html, body, .notepad-post-container, .notepad-post-header {
   font-size: 1.625rem;
   font-weight: 700;
   color: white;
-  text-transform: uppercase;
   letter-spacing: -0.0625rem; }
   .notepad-post-header-title a {
     color: white; }
@@ -103,7 +102,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       font-size: 2.5rem;
       margin: 0 auto;
       line-height: 1.1;
-      text-transform: uppercase; }
+    }
       @media only screen and (min-width: 40.063em) {
         .post-template .notepad-post-title h1 {
           font-size: 3.125rem; } }
@@ -153,7 +152,6 @@ html, body, .notepad-post-container, .notepad-post-header {
     color: black;
     content: attr(data-info);
     font-size: 1.125rem;
-    text-transform: uppercase;
     -webkit-backface-visibility: hidden; }
   .post-template button.trigger:focus {
     outline: none; }
@@ -349,7 +347,7 @@ html, body, .notepad-post-container, .notepad-post-header {
       padding: 0;
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
-      text-transform: uppercase; }
+    }
     .notepad-author-info .notepad-post-author > p {
       font-size: 1.125rem; }
       .notepad-author-info .notepad-post-author > p a {
@@ -407,7 +405,7 @@ html, body, .notepad-post-container, .notepad-post-header {
     margin: 0 auto;
     line-height: 1.1;
     text-align: center;
-    text-transform: uppercase; }
+  }
     @media only screen and (min-width: 40.063em) {
       .notepad-page-title h1,
       .notepad-post-title-simple h1 {
@@ -553,7 +551,7 @@ iframe {
   padding-right: 1.875rem; }
   .notepad-disqus .notepad-comments-header {
     font-weight: 700;
-    text-transform: uppercase; }
+  }
   @media only screen and (min-width: 40.063em) {
     .notepad-disqus {
       padding-top: 5.3125rem;
@@ -588,7 +586,6 @@ iframe {
 .post-list .entry-date {
     display: none;
     font-size: 14px;
-    text-transform: uppercase;
     float: right;
 }
 

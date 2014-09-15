@@ -151,7 +151,6 @@ main, .notepad-share-icons, .notepad-disqus {
     font-size: 1.625rem;
     font-weight: 700;
     color: black;
-    text-transform: uppercase;
     letter-spacing: -0.0625rem; }
     .notepad-site-head .notepad-site-head-menu .title a {
       color: black; }
@@ -173,7 +172,7 @@ main, .notepad-share-icons, .notepad-disqus {
     margin: 0;
     padding: 0;
     color: white;
-    text-transform: uppercase; }
+  }
   .notepad-site-head .notepad-site-head-content h1 {
     padding-top: 4.375rem;
     font-size: 0.875rem;
@@ -244,11 +243,10 @@ main, .notepad-share-icons, .notepad-disqus {
       color: black;
       font-size: 0.875rem;
       font-family: "Montserrat", sans-serif;
-      text-transform: uppercase; }
+    }
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: black;
     font-weight: 700;
-    text-transform: uppercase;
     text-align: center;
     font-size: 1.625rem;
     margin: 0;
@@ -308,7 +306,6 @@ main, .notepad-share-icons, .notepad-disqus {
     background-color: black;
     font-weight: 600;
     padding: 0.625rem 2.5rem;
-    text-transform: uppercase;
     -webkit-transition: background-color .3s;
     transition: background-color .3s;
     width: 60%;
@@ -430,7 +427,6 @@ nav.pagination {
     font-family: "Montserrat", sans-serif;
     font-size: 1.125rem;
     color: black;
-    text-transform: uppercase;
     margin: 0;
     padding: 0;
     padding-top: 3.125rem;
