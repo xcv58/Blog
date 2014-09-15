@@ -3,11 +3,11 @@ description:      "Less is more"
 logo:             logo.png
 disqus_shortname: xcv58
 share:            true
-dropcap:	  true
+dropcap:          true
 # Change url to your domain. Leave localhost server or blank when working locally.
-# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
-url:        	  http://blog.xcv58.com
+url:              http://blog.xcv58.com
 
 # Owner/author information
 owner:
@@ -26,9 +26,9 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 # google_analytics:   UA-39365944-7
-# google_verify:      
+# google_verify:
 # # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-# bing_verify:         
+# bing_verify:
 
 # Links to include in footer navigation
 # For external links add external: true
@@ -63,7 +63,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
