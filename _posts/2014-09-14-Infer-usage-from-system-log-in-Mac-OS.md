@@ -179,11 +179,13 @@ Sep 10 13:58,8
 {% endhighlight %}
 
 [The whole file](https://docs.google.com/spreadsheets/d/1WJm4UwQLGsY3zhWhZHpV_kGdo1V5uwRKyXjWReYuBms/edit?usp=sharing) is sharing via Google Drive.
-And [the interactive chart](https://docs.google.com/spreadsheets/d/1WJm4UwQLGsY3zhWhZHpV_kGdo1V5uwRKyXjWReYuBms/pubchart?oid=1311131467&format=interactive) of this data.
+And [the Google interactive chart](https://docs.google.com/spreadsheets/d/1WJm4UwQLGsY3zhWhZHpV_kGdo1V5uwRKyXjWReYuBms/pubchart?oid=1311131467&format=interactive) of this data.
+
+Below is an interactive chart created by [vis.js](http://visjs.org). I divided the log by every ten minutes. It roughly reflects my daily usage on Mac.
 
 <div id="visualization"></div>
-<script type="text/javascript" src="http://visjs.org/dist/vis.js"></script>
-<link href="http://visjs.org/dist/vis.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://visjs.org/dist/vis.min.js"></script>
+<link href="http://visjs.org/dist/vis.min.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
   var container = document.getElementById('visualization');
   var items = [
@@ -860,6 +862,7 @@ And [the interactive chart](https://docs.google.com/spreadsheets/d/1WJm4UwQLGsY3
   };
   var graph2d = new vis.Graph2d(container, dataset, options);
 </script>
+
 
 Those data can confirm the assumption, but we still need log from more people.
 Please contact me <a href="mailto:i@xcv58.com">i@xcv58.com</a> if you're interested to participate.
