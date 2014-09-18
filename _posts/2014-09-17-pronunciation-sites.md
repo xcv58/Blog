@@ -4,7 +4,7 @@ title: "Pronunciation Websites"
 description: "There are some websites for english learner to improve pronunciation."
 category: Learning
 tags: [English, Bookmark]
-imagefeature: pronunciation.jpg
+imagefeature:
 mathjax:
 chart:
 comments: true
