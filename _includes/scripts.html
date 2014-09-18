@@ -14,6 +14,23 @@
     <script type='text/javascript'>console.log("HMFaysal Notepad Theme Version 2.0");</script>
     <script type='text/javascript'>console.log("https://alum.mit.edu/www/hmfaysal");</script>
 
+{% if site.kissmetrics %}
+<!-- KISSmetrics tracking snippet -->
+<script type="text/javascript">var _kmq = _kmq || [];
+  var _kmk = _kmk || '{{ site.kissmetrics }}';
+  function _kms(u){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0],
+      s = d.createElement('script');
+      s.type = 'text/javascript'; s.async = true; s.src = u;
+      f.parentNode.insertBefore(s, f);
+    }, 1);
+  }
+  _kms('//i.kissmetrics.com/i.js');
+  _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+</script>
+{% endif %}
+
 {% if site.google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
 <script>
