@@ -24,5 +24,4 @@ echo Path: $SCRIPT_PATH
 echo Filename: $SCRIPT_FILE
 {% endhighlight %}
 
-The gist:
-<a href="https://gist.github.com/ceba2a4f4bb8729d2e58.git" targer="_blank"> https://gist.github.com/ceba2a4f4bb8729d2e58.git </a>
+The code is also available on <a href="https://gist.github.com/ceba2a4f4bb8729d2e58" targer="_blank">the gist</a>.
