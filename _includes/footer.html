@@ -6,11 +6,27 @@
     </div>
     <div class="social-icons">
         
+        {% if site.owner.github %}
+        <a href="http://github.com/{{ site.owner.github }}" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
         {% if site.owner.twitter %}
         <a href="http://twitter.com/{{ site.owner.twitter }}" target="_blank">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if site.owner.weibo %}
+        <a href="http://weibo.com/u/{{ site.owner.weibo }}" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-weibo fa-stack-1x"></i>
             </span>
         </a>
         {% endif %}
@@ -30,19 +46,19 @@
             </span>
         </a>
         {% endif %}
-        {% if site.owner.github %}
-        <a href="http://github.com/{{ site.owner.github }}" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-        </a>
-        {% endif %}
         {% if site.owner.facebook %}
         <a href="http://facebook.com/{{ site.owner.facebook }}" target="_blank">
             <span class="fa-stack fa-lg">
                 <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                 <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        {% endif %}
+        {% if site.owner.renren %}
+        <a href="http://renren.com/{{ site.owner.renren }}" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-renren fa-stack-1x"></i>
             </span>
         </a>
         {% endif %}
