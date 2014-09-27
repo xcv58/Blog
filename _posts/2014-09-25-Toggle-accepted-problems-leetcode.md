@@ -16,7 +16,10 @@ But it has no feature to let us hidden accepted problem.
 So I write my own bookmarklet to do it. The repository is here: <a href="https://github.com/xcv58/toggle-leetcode-ac" target="_blank">https://github.com/xcv58/toggle-leetcode-ac</a>
 
 The main part is:
-{% highlight javascript %}(
+
+<div style="text-decoration:line-through">
+{% highlight javascript %}
+(
     function()
     {
         var filter = new RegExp("=\"ac");
@@ -29,6 +32,30 @@ The main part is:
                     list[i].style.display="none";
                 }
             }
+        }
+        return;
+    }
+)();
+{% endhighlight %}
+</div>
+
+Update by 20140927, I use jQuery to reimplement this and add toggle notac's color feature:
+{% highlight javascript %}
+(
+    function()
+    {
+        var color = $( ".notac" ).css("background-color");
+        if (color == "rgb(255, 255, 0)") {
+            $( ".notac" ).css("background-color", "");
+        } else {
+            $( ".notac" ).css("background-color", "yellow");
+        }
+
+        var current = $( ".ac" ).parent().parent().css("display");
+        if (current == "none") {
+            $( ".ac" ).parent().parent().css("display", "");
+        } else {
+            $( ".ac" ).parent().parent().css("display", "none");
         }
         return;
     }
