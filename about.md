@@ -33,4 +33,4 @@ I am a PhD student majored in **CSE** at [UB](http://www.cse.buffalo.edu). My re
   <figcaption>xcv58</figcaption>
 </figure>
 
-I was born and brought up in China. Of course, I have <a href='http://www.xcv58.com' target='_blank'>another blog</a> mainly written by Chinese.
+I was born and brought up in China. Of course, I have <a href='http://cn.xcv58.com' target='_blank'>another blog</a> mainly written by Chinese.
