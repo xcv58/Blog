@@ -11,9 +11,7 @@ comments: true
 ---
 <a href="http://www.google.com/inbox/" target="_blank">Inbox by Gmail</a> is a great product.
 But right now it works only in Chrome. When you open it in Safari:
-
 ![screenshot of Inbox in Safari]({{ site.url }}/images/inbox-in-safari.png)
-
 We can change the default User Agent to mock Google.
 
 # Usage
@@ -28,14 +26,18 @@ Then you can open Inbox in a new tab in Safari and it should works.
 
 If you just wanna use Inbox in Safari, please stop here and enjoy.
 
-# User Agent String
+# Find Other User Agent Strings
+
 The other User Agent String can be found in:
 
 `/Applications/Safari.app/Contents/Resources/UserAgents.plist`
 
-# Revert
+# How to Revert
+
 To revert the change, you just need run this command:
 
 ```
 defaults delete com.apple.Safari CustomUserAgent
 ```
+
+Then restart Safari.
