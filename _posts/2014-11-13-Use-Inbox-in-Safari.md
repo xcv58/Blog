@@ -16,6 +16,8 @@ We can change the default User Agent to mock Google.
 
 # Usage
 
+Please see the [Important Update](#Important-Update) at first!
+
 Just run such command in <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target="_blank">Terminal</a>:
 
 ```
@@ -41,3 +43,13 @@ defaults delete com.apple.Safari CustomUserAgent
 ```
 
 Then restart Safari.
+
+# Important Update
+
+Set global User Agent to Chrome can cause some critical issue, like abnormal behavior on YouTube.
+
+So we need only set User Agent for inbox tab. You can use this AppleScript in Alfred, Automator/Services, Quicksilver, LaunchBar or whatever you like.
+
+<div class="row">
+<script src="https://gist.github.com/xcv58/21ada9d69b7a3801ad7b.js"></script>
+</div>
