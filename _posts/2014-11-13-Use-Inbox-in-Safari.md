@@ -16,7 +16,7 @@ We can change the default User Agent to mock Google.
 
 # Usage
 
-Please see the [Important Update](#Important-Update) at first!
+Please see the [Important Update](#update) at first!
 
 Just run such command in <a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line" target="_blank">Terminal</a>:
 
@@ -44,7 +44,7 @@ defaults delete com.apple.Safari CustomUserAgent
 
 Then restart Safari.
 
-# Important Update
+# <a name="update"></a>Important Update
 
 Set global User Agent to Chrome can cause some critical issue, like abnormal behavior on YouTube.
 
