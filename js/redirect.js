@@ -1,0 +1,10 @@
+var regexForMainURL = /.*\/\/.+?\//;
+var currentURL = document.URL;
+var newURL = currentURL.replace(regexForMainURL, "http://cn.xcv58.com/");
+var greeting = "Perhaps you visit my Chinese Blog, try: ";
+// var xmlHttp = new XMLHttpRequest();
+// xmlHttp.open( "GET", newURL );
+// xmlHttp.send( null );
+// var response = xmlHttp.responseText;
+document.getElementById("cn-xcv58-com").innerHTML = greeting + "<a href='" + newURL + "'>" + newURL + "</a>";
+setInterval(function () {window.location = newURL}, 3000);
