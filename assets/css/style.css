@@ -38,6 +38,7 @@ main, .notepad-share-icons, .notepad-disqus {
   background: transparent; }
 
 .notepad-blog-menu {
+  margin-left: auto;
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0.9375rem;
@@ -134,6 +135,8 @@ main, .notepad-share-icons, .notepad-disqus {
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
+  display: -webkit-flex; /* Safari */
+  display: flex;
   background: white; }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
